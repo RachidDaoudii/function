@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1662991886 source:c:\users\youcode\desktop\function\challenge10\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
