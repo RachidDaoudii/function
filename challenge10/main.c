@@ -7,8 +7,10 @@
 int res;
 //Déclaration de la function
 void divededby(int a,int b){
-    if(b==0)
+    if(b==0){
         printf("Erreur de nombre B=0");
+        exit( EXIT_SUCCESS );
+    }
     else{
         res = a/b;
         printf("%d \n",res);

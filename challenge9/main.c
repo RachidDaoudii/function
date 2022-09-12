@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-
-
-
-
 //Déclaration de la function
 bool ispremier(int a){
     //Déclaration les varaible
@@ -17,7 +13,7 @@ bool ispremier(int a){
             break;
         }
     }
-    //Afficher resultat de traitement
+    //Afficher résultat de traitement
     if(nombre==false)
    {
        printf("nombre %d est un nombre premier.",a);
