@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1663021734 source:c:\users\dell\desktop\function\challenge12\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
