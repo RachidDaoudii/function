@@ -4,9 +4,16 @@
 
 
 //Déclaration les varaible global
-//int res;
+int res;
 //Déclaration de la function
-//void divededby(int a,int b){
+void divededby(int a,int b){
+        return res = a/b;
+}
+//Déclaration de la function
+bool isPremier(){
+    //Déclaration les varaible
+//        int i,res;
+//
 //    if(b==0){
 //        printf("Erreur de nombre B=0");
 //        exit( EXIT_SUCCESS );
@@ -15,20 +22,8 @@
 //        res = a/b;
 //        printf("%d \n",res);
 //    }
-//}
-//Déclaration de la function
-bool dividedby(int a,int b){
-    //Déclaration les varaible
-        int i,res;
-        bool nombre = false;
-    if(b==0){
-        printf("Erreur de nombre B=0");
-        exit( EXIT_SUCCESS );
-    }
-    else{
-        res = a/b;
-        printf("%d \n",res);
-    }
+    bool nombre = false;
+    int i;
     //traitement de la function
     for(i=2;i<res;i++){
         if(res%i==0){
@@ -54,9 +49,12 @@ int main()
     scanf("%d",&a);
     printf("donner un nombre : ");
     scanf("%d",&b);
+
+    if(b<1)
+        printf("Erreur de nombre  b=0");
     //Appeler la function
-//    divededby(a,b);
-    dividedby(a,b);
+    divededby(a,b);
+    isPremier();
 
     return 0;
 
